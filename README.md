@@ -89,7 +89,7 @@ npm install
 
 ## How to Report Bug
 
-Report any bug to [Github Issues Tab](https://github.com/ARS-Ajah/ARS-Bots/issues) Or On my [Discord Server](https://discord.gg/Rpg7wmq5t2)
+Report any bug to [Github Issues Tab](https://github.com/ARS-Ajah/ARS-Bots/issues), On my [Discord Server](https://discord.gg/Rpg7wmq5t2) Or Contact me at [kimininyipa@gmail.com](mailto:kimininyipa@gmail.com)
 
 ## Message
 If you only install Git & Node.js when you see this Repositories then I am sorry but I Hate You
