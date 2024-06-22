@@ -1,1 +1,1 @@
-echo -e "\033[91m[ARS Utility]\033[39m Welcome to ARS Bots Installer!"; echo -e "\033[91m[ARS Utility]\033[39m Installing..."; npm init -y; npm i dotenv discord.js; npm i nodemon eslint --save-dev; echo -e "\033[91m[ARS Utility]\033[39m Starting..."; npm start;
+echo -e "\033[91m[ARS Utility]\033[39m Welcome to ARS Bots Installer!"; echo -e "\033[91m[ARS Utility]\033[39m Installing..."; npm init -y; npm i dotenv discord.js; npm i nodemon eslint --save-dev; echo -e "\033[91m[ARS Utility]\033[39m Starting..."; npm start; node deploy-commands.js
