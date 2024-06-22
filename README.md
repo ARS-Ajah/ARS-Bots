@@ -22,7 +22,7 @@ $~ chmod +x script-name-here.sh
 $~ ./run.sh
 ```
 
-add change sections **Scripts** and add **Start Command** In the Package.json (It is recommended to use Nano)
+Add change sections **Scripts** and add **Start Command** In the Package.json (It is recommended to use Nano)
 ```json
 {
   "scripts": {
@@ -30,6 +30,14 @@ add change sections **Scripts** and add **Start Command** In the Package.json (I
   },
 }
 ```
+
+Change **.env.example** to .env and change the content for example
+```env
+TOKEN="MTI0NjQ4MzA5NDc5NDUzOTA3OQ.GCJ337.8UzSY6gAD81_zBEdhIrNwtCYg74fHsyyjcsRpU"
+ID="1"
+GUILD="1"
+```
+**DISCLAIMER: Don't use this Token. It's Expired :D**
 
 ### For Windows
 
@@ -59,6 +67,14 @@ Then clone the Repositories with this command
 ```sh
 git clone https://github.com/ARS-Ajah/ARS-Bots.git
 ```
+
+Change **.env.example** to .env and change the content for example
+```env
+TOKEN="MTI0NjQ4MzA5NDc5NDUzOTA3OQ.GCJ337.8UzSY6gAD81_zBEdhIrNwtCYg74fHsyyjcsRpU"
+ID="1"
+GUILD="1"
+```
+**DISCLAIMER: Don't use this Token. It's Expired :D**
 
 ## How to Report Bug
 
