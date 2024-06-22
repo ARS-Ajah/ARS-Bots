@@ -15,7 +15,7 @@ Clone the Repositories with this command
 $~ git clone https://github.com/ARS-Ajah/ARS-Bots.git
 ```
 
-Start the run.bat file with this 
+Start the run.sh file with this 
 
 ```sh
 $~ chmod +x script-name-here.sh
@@ -26,7 +26,8 @@ Add change sections **Scripts** and add **Start Command** In the Package.json (I
 ```json
 {
   "scripts": {
-    "start": "npx nodemon index.js"
+    "start": "npx nodemon index.js",
+    "install": "node deploy-commands.js"
   },
 }
 ```
@@ -45,11 +46,12 @@ After installing **Node.js and Git** run this command to install initialize **pa
 ```sh
 npm init
 ```
-After initializing **Package.json** add change sections **Scripts** and add **Start Command**
+After initializing **Package.json** add change sections **Scripts** and add **Start Command** and **Install Command**
 ```json
 {
   "scripts": {
-    "start": "npx nodemon index.js"
+    "start": "npx nodemon index.js",
+    "install": "node deploy-commands.js"
   },
 }
 ```
@@ -75,6 +77,15 @@ ID="1"
 GUILD="1"
 ```
 **DISCLAIMER: Don't use this Token. It's Expired :D**
+
+Then run this in **TWO** Seperate **Powershell**
+```sh
+npm start
+```
+```sh
+npm install
+```
+
 
 ## How to Report Bug
 
