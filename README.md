@@ -8,6 +8,31 @@ First Install **Node.js & Git** Here is a link for all of them:
 
 `Git:` [Git-scm.com](https://www.git-scm.com/downloads)
 
+### For Linux
+
+Clone the Repositories with this command
+```sh
+$~ git clone https://github.com/ARS-Ajah/ARS-Bots.git
+```
+
+Start the run.bat file with this 
+
+```sh
+$~ chmod +x script-name-here.sh
+$~ ./run.sh
+```
+
+add change sections **Scripts** and add **Start Command** In the Package.json (It is recommended to use Nano)
+```json
+{
+  "scripts": {
+    "start": "npx nodemon index.js"
+  },
+}
+```
+
+### For Windows
+
 After installing **Node.js and Git** run this command to install initialize **package.json**
 ```sh
 npm init
@@ -29,7 +54,6 @@ Also install nodemon and eslint and save it as dev(Optional)
 npm i nodemon eslint --save-dev
 ```
 If you didn't Use eslint then delete the `.eslintrc.json`
-
 
 Then clone the Repositories with this command
 ```sh
