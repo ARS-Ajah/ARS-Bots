@@ -40,6 +40,21 @@ GUILD="1"
 ```
 **DISCLAIMER: Don't use this Token. It's Expired :D**
 
+(Optional) If you want the Command to be **Globally**/*Not Stored in 1 Guild* Then change the **deploy-commands.js** at this part
+```js
+const data = await rest.put(
+			Routes.applicationGuildCommands(clientId, guildId),
+			{ body: commands },
+		);
+```
+**To This**
+```js
+const data = await rest.put(
+	    Routes.applicationCommands(clientId),
+	    { body: commands },
+    );
+```
+
 ### For Windows
 
 After installing **Node.js and Git** run this command to install initialize **package.json**
@@ -85,7 +100,20 @@ npm start
 ```sh
 npm install
 ```
-
+(Optional) If you want the Command to be **Globally**/*Not Stored in 1 Guild* Then change the **deploy-commands.js** at this part
+```js
+const data = await rest.put(
+			Routes.applicationGuildCommands(clientId, guildId),
+			{ body: commands },
+		);
+```
+**To This**
+```js
+const data = await rest.put(
+	    Routes.applicationCommands(clientId),
+	    { body: commands },
+    );
+```
 
 ## How to Report Bug
 
