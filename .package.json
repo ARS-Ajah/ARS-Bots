@@ -1,0 +1,12 @@
+{
+    "name": "ars-bots",
+    "version": "1.2.0",
+    "description": "A Discord Bot",
+    "main": "index.js",
+    "scripts": {
+      "start": "npx nodemon index.js"
+    },
+    "author": "ARS Ajah",
+    "license": "MIT"
+}
+  
