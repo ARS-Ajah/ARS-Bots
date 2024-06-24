@@ -20,7 +20,7 @@
 
 **Added**
 
-- `+ Added CHANGES.md`
+- `+ Added CHANGELOG.md`
 - `+ Added .package.json`
 - `+ Make README.md More Understandable`
 - `+ Added Kick, Ban, Warn Command to Commands/Dir`
