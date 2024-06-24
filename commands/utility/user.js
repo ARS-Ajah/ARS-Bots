@@ -5,9 +5,26 @@ module.exports = {
     .setName("user")
     .setDescription("Provides information about the user."),
   async execute(interaction) {
+    const embed = new EmbedBuilder()
+      .setTitle(`${interaction.user.username} Info`)
+      .setColor('Gold')
+      .setFields(
+        {
+          name: `${interaction.user.username} Name`,
+          value: interaction.user.username
+        },
+        {
+          name: `${interaction.user.username} Joined At`,
+          value: interaction.member.joinedAt
+        },
+        {
+          name:` `,
+          value: `|| @${interaction.user.username} ||`
+        }
 
-    await interaction.reply(
-      `This command was run by @${interaction.user.username}, who joined on \`${interaction.member.joinedAt}.\``
-    );
+      )
+    await interaction.reply({
+      embeds: [embed]
+  });
   },
 };
